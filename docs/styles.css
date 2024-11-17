@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6fa;
+    /* 淡紫色背景 */
+    margin: 0;
+    /* 移除默认的外边距 */
+}
+
+header,
+nav,
+main,
+footer {
+    text-align: center;
+    /* 使所有主要部分的文字居中 */
+    padding: 20px;
+    /* 内边距，增加可读性 */
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    /* 绿色背景 */
+    color: white;
+    /* 白色文字 */
+    padding: 10px 20px;
+    /* 内边距 */
+    border: none;
+    /* 无边框 */
+    border-radius: 5px;
+    /* 圆角 */
+    cursor: pointer;
+    /* 鼠标悬停时显示指针 */
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+    /* 鼠标悬停时变深的绿色 */
+}
+
+/* 修改此处的 margin-right 属性来缩小间距 */
+.contact-info img {
+    margin-right: 5px;
+    /* 缩小间距 */
+}
